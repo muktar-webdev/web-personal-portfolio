@@ -97,7 +97,8 @@ border-image: linear-gradient(360deg,dodgerblue,dodgerblue);
     padding: 2px 20px;
 }
 .project-section{
-    height: 750px;
+    height: 650px;
+    background-color:#c5d9f136 ;
    
 }
 /* --Project Section End-- */
