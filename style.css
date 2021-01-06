@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: gray;
+    line-height: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2,h3{
+    color:#5a47d8d5;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+/* --Header Part Start */
+header{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+ul{
+    list-style-type: none;
+    margin-right: 10%;
+
+}
+ul li{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color:#37374bf5;
+    padding: 20px;
+}
+
+/* --Header Part End */
+
+
+/* --Info Section Start-- */
+.info-section{
+    height: 400px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding: 2%;
+}
+
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,tomato,rgb(243, 120, 98));
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.half-width img{
+    width: 80%;
+    height: 50%;
+}
+/* --Info Section End-- */
+.about-section{
+    height: 320px;
+}
+
+
+/* --Project Section Start-- */
+
+.cards{
+    box-shadow: 2px 2px 40px gray;
+    width: 25%;
+    float: left;
+    margin: 3%;
+    padding: 1%;
+    
+    /* padding-left: 2%; */
+    border-radius: 10px;
+    height:360px;
+}
+.cards img{
+width: 90%;
+margin:3%;
+border: 20px ;
+border-image: linear-gradient(360deg,dodgerblue,dodgerblue);
+
+
+}
+.container{
+    width: 100%;
+    padding: 2px 20px;
+}
+.project-section{
+    height: 750px;
+   
+}
+/* --Project Section End-- */
+
+
+/* --Experience Section Start */
+section .experience-section{
+    margin-top: 30px;
+    height: 500px;
+}
+.third-width{
+    width: 25%;
+    float: left;
+    background: #f5f5f5;
+    margin-left: 4%;
+    padding:2%;
+    text-align: center;
+    height: 120px;
+    box-shadow: 0px 10px 40px 0px gray ;
+    border-radius: 10px;
+}
+.third-width p{
+    color:#000000;
+}
+
+/* --Experience Section End */
+
+
+/* --Inquiry section-- */
+
+.inquiry-section{
+ position: relative;
+  top: 50%; 
+ left: 18%;
+ right: 0%;
+ border-radius: 25px;
+
+}
+.inquiry-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 3.5%;
+    color:#ffffffd8;
+   
+    
+}
+.inquiry-section a{
+    color: white;
+    background-image: linear-gradient(180deg,tomato,#eb7648);
+    border-radius: 10px;
+}
+
+/* --inquiry section end */
+
+
+/* --footer section start-- */
+footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.footer-img{
+    margin-right: 20px;
+}
+/* --footer section end */ 
